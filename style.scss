@@ -2,3 +2,58 @@ html, body {
     margin:0;
     padding: 0;
 }
+@media screen and (min-width:1200px)
+{
+    .backgroundJP {
+        position:relative;
+        background-repeat: no-repeat;
+        background: url("japan.jpg");
+        background-size: 100%;
+        width:100%;
+        height:100vh;
+        background-size: 100%;
+    }
+    .nav {
+    padding: 3em 4em;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    li {
+        display:inline-block;
+        margin: 0 .6em;
+    }
+    }
+    nav {
+        color:white;
+        font-size:16px;
+        font-family: 'Montserrat';
+        text-align: end;
+    }
+    .titletag {
+        text-align: center;
+        margin: 25vh auto;        
+        position: relative;
+        .herotitle {
+            text-align: center;
+            text-shadow: 10px 0px 30px #000000;
+            color:white;   
+            font-family:"Gilroy ☞";
+            font-size:70px;
+        }
+    }
+    .ctatitle{
+        border:none;
+        color:#fff;
+        background-color: #CC0000;
+        font-family: "Montserrat";
+        font-size: 16px;
+        position: absolute;
+        right:50%;
+        transform: translateX(50%);
+        padding:10px 25px;
+        border-radius: 3em;
+        top:100px;
+    }
+    
+}
