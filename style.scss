@@ -80,10 +80,10 @@ html, body {
     
     .placeContainer {
         padding: 3em 4em;
+        background-color: #20292F;
     }
     .stackPic{
         margin-top:2em;
-        position:relative;
         text-align: center;
     }
     .placeImage {
@@ -91,16 +91,144 @@ html, body {
         background-color: #000000;
         display:inline-block;
         height: 650px;
-        width: 150px; 
+        width: 160px; 
+        img {
+            opacity:0.8;
+        }
     }
     .textImg {
-        text-align: center;
-      
+        position:absolute;
+        margin:auto;
+        top:50%;
+        right:0;
+        left:0;
+        bottom:0;
+        color:white;
+        font-size: 16px;
+        font-family: 'Montserrat';
+        display: block;
+
     }
 }
 
-.hokkaido {
-background-image: url("hokkaido.jpg");
-background-position: center;
-background-size: cover;
+.hokkaido{
+    position:relative;
+    &::before {
+        content:'';
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-image: url("hokkaido.jpg");
+        background-position: center;
+        background-size: cover;
+        opacity:0.7;
+    }
+}
+.tohoku{
+    position:relative;
+    &::before {
+        content:'';
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-image: url("tohoku.jpg");
+        background-position: center;
+        background-size: cover;
+        opacity:0.7;
+    }
+}
+.chubu{
+    position:relative;
+    &::before {
+        content:'';
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-image: url("chubu.jpg");
+        background-position: 71% 29% ;
+        background-size: cover;
+        opacity:0.7;
+    }
+}
+.kanto{
+    position:relative;
+    &::before {
+        content:'';
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-image: url("tokyo.jpg");
+        background-position:center;
+        background-size: cover;
+        opacity:0.7;
+    }
+}
+.kansai{
+    position:relative;
+    &::before {
+        content:'';
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-image: url("Kansai.jpg");
+        background-position:center;
+        background-size: cover;
+        opacity:0.7;
+    }
+}
+.chogoku{
+    position:relative;
+    &::before {
+        content:'';
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-image: url("Chugoku.jpg");
+        background-position:55% 45%;
+        background-size: cover;
+        opacity:0.7;
+    }
+}
+
+.shikoku{
+    position:relative;
+    &::before {
+        content:'';
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-image: url("Shikoku.jpg");
+        background-position:55% 45%;
+        background-size: cover;
+        opacity:0.7;
+    }
+}
+.kyushu{
+    position:relative;
+    &::before {
+        content:'';
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-image: url("kyushu.jpg");
+        background-position:55% 45%;
+        background-size: cover;
+        opacity:0.7;
+    }
 }
