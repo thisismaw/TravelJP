@@ -1,17 +1,18 @@
-html, body {
+*{
     margin:0;
     padding: 0;
+}
+html, body {
+    height:100%;
 }
 @media screen and (min-width:1200px)
 {
     .backgroundJP {
-        position:relative;
-        background-repeat: no-repeat;
+        height:100%;
         background: url("japan.jpg");
-        background-size: 100%;
-        width:100%;
-        height:100vh;
-        background-size: 100%;
+        background-repeat: no-repeat;   
+        background-position: center;
+        background-size:cover;
     }
     .nav {
     padding: 3em 4em;
@@ -31,10 +32,12 @@ html, body {
         text-align: end;
     }
     .titletag {
+        padding: 0em 4em;
         text-align: center;
-        margin: 25vh auto;        
+        margin: 30vh auto;        
         position: relative;
         .herotitle {
+
             text-align: center;
             text-shadow: 10px 0px 30px #000000;
             color:white;   
@@ -43,17 +46,34 @@ html, body {
         }
     }
     .ctatitle{
+        margin-bottom:5em;
         border:none;
         color:#fff;
         background-color: #CC0000;
         font-family: "Montserrat";
         font-size: 16px;
-        position: absolute;
-        right:50%;
-        transform: translateX(50%);
         padding:10px 25px;
         border-radius: 3em;
-        top:100px;
     }
-    
+    .itembot {    
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    .fujiTemple {
+        text-align: left;
+        opacity:0.8;
+        color:white;
+        letter-spacing: -2px;
+        font-size: 45px;
+        font-family: "Montserrat";
+    }
+    .snsIcon{
+        display:flex;
+        justify-content: flex-end;
+    }
+    .socialSVG {
+        margin: 0 12px;
+        opacity:0.8;
+    }
 }
