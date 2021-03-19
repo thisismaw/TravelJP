@@ -55,7 +55,8 @@ html, body {
         padding:10px 25px;
         border-radius: 3em;
     }
-    .itembot {    
+    .itembot {  
+        margin-top: 20%;  
         display:grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
@@ -76,4 +77,30 @@ html, body {
         margin: 0 12px;
         opacity:0.8;
     }
+    
+    .placeContainer {
+        padding: 3em 4em;
+    }
+    .stackPic{
+        margin-top:2em;
+        position:relative;
+        text-align: center;
+    }
+    .placeImage {
+        position:relative;
+        background-color: #000000;
+        display:inline-block;
+        height: 650px;
+        width: 150px; 
+    }
+    .textImg {
+        text-align: center;
+      
+    }
+}
+
+.hokkaido {
+background-image: url("hokkaido.jpg");
+background-position: center;
+background-size: cover;
 }
