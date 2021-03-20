@@ -159,6 +159,27 @@ html, body {
   .right-title p {
     font-size: 16px;
   }
+  .left-side {
+    padding: 1em;
+  }
+  .left-image {
+    margin-top: 2em;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .leftimg {
+    background-color: white;
+    height: 200px;
+    max-width: auto;
+    background-size: cover;
+  }
+  .submitbtn {
+    border-radius: 2em;
+    margin-top: 15px;
+    padding: .5em 1em;
+  }
 }
 
 .hokkaido {
@@ -295,5 +316,25 @@ html, body {
   background-position: 55% 45%;
   background-size: cover;
   opacity: 0.7;
+}
+
+.sushi {
+  background-image: url("sushi.jpg");
+  background-size: cover;
+}
+
+.ramen {
+  background-image: url("ramen.jpg");
+  background-size: cover;
+}
+
+.yaki {
+  background-image: url("yaki.jpg");
+  background-size: cover;
+}
+
+.sashimi {
+  background-image: url("sashimi.jpg");
+  background-size: cover;
 }
 /*# sourceMappingURL=style.css.map */
