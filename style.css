@@ -122,6 +122,43 @@ html, body {
     font-family: 'Montserrat';
     display: block;
   }
+  .placeTitle {
+    font-family: "Montserrat";
+    color: white;
+  }
+  .placeTitle h1 {
+    font-size: 45px;
+  }
+  .placeTitle p {
+    font-size: 16px;
+  }
+  .left-title {
+    font-family: "Montserrat";
+    color: white;
+  }
+  .left-title h1 {
+    font-size: 45px;
+  }
+  .left-title p {
+    font-size: 16px;
+  }
+  .botcontent {
+    padding: 2em 5em;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .right-title {
+    font-family: "Montserrat";
+    color: white;
+  }
+  .right-title h1 {
+    font-size: 45px;
+  }
+  .right-title p {
+    font-size: 16px;
+  }
 }
 
 .hokkaido {
@@ -238,7 +275,7 @@ html, body {
   right: 0;
   bottom: 0;
   background-image: url("Shikoku.jpg");
-  background-position: 55% 45%;
+  background-position: 47% 53%;
   background-size: cover;
   opacity: 0.7;
 }
