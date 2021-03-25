@@ -5,9 +5,128 @@
 html, body {
     height:100%;
 }
+p{
+    font-family:"Gilroy";
+}
+@media screen and (min-width:320px) {
+    .backgroundJP {
+        height:100%;
+        background: url("japan.jpg");
+        background-repeat: no-repeat;   
+        background-position: 65% 35%;
+        background-size:cover;
+    }
+    .nav {
+        padding: 1em;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        align-items: center;
+        li {
+            text-align: center;
+            display:inline-block;
+            margin: 0 .6em;
+        }
+        }
+        nav {
+            color:white;
+            font-size:16px;
+            font-family: 'Montserrat';
+            text-align: end;
+        }
+        .titletag {
+            padding: 1em;
+            text-align: center;
+            margin: 30vh auto;        
+            position: relative;
+            .herotitle {
+                text-align: center;
+                text-shadow: 10px 0px 30px #000000;
+                color:white;   
+                font-family:"Gilroy ☞";
+                font-size:70px;
+            }
+        }
+        .ctatitle{
+            margin-top:1em;
+            margin-bottom:3em;
+            border:none;
+            color:#fff;
+            background-color: #CC0000;
+            font-family: "Montserrat";
+            font-size: 16px;
+            padding:10px 25px;
+            border-radius: 3em;
+        }
 
-@media screen and (min-width:1200px)
-{
+        .itembot {  
+            margin-top:6em;
+        }
+        .fujiTemple {
+            text-align: center;
+            opacity:0.8;
+            color:white;
+            letter-spacing: -2px;
+            font-size: 45px;
+            font-family: "Montserrat";
+        }
+        .snsIcon{
+            margin-top: 1em;
+            display:flex;
+            justify-content: center;
+        }
+        .socialSVG {
+            margin: 0 12px;
+            opacity:0.8;
+        }
+
+        .placeContainer {
+            padding: 1em;
+            background-color: #20292F;
+        }
+        .stackPic{
+            margin-top:2em;
+            text-align: center;
+        }
+
+        .placeImage {
+            position:relative;
+            background-color: #000000;
+            display:inline-block;
+            height: 150px;
+            width: 250px; 
+            img {
+                opacity:0.8;
+            }
+        }
+
+        .placeTitle {
+            font-family: "Montserrat";
+                color:white;
+            h1 {
+                font-size: 45px;
+            }
+            p {
+                margin-top: 10px;
+                font-size: 16px;
+            }
+        }
+        .textImg {
+            position:absolute;
+            margin:auto;
+            top:50%;
+            right:0;
+            left:0;
+            bottom:0;
+            color:white;
+            font-size: 16px;
+            font-family: 'Montserrat';
+            display: block;
+    
+        }
+}
+
+@media screen and (min-width:768px) {
+
     .backgroundJP {
         height:100%;
         background: url("japan.jpg");
@@ -16,157 +135,184 @@ html, body {
         background-size:cover;
     }
     .nav {
-    padding: 3em 4em;
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
-    align-items: center;
-    li {
-        display:inline-block;
-        margin: 0 .6em;
-    }
-    }
-    nav {
-        color:white;
-        font-size:16px;
-        font-family: 'Montserrat';
-        text-align: end;
-    }
-    .titletag {
-        padding: 0em 4em;
-        text-align: center;
-        margin: 30vh auto;        
-        position: relative;
-        .herotitle {
-
-            text-align: center;
-            text-shadow: 10px 0px 30px #000000;
-            color:white;   
-            font-family:"Gilroy ☞";
-            font-size:70px;
-        }
-    }
-    .ctatitle{
-        margin-bottom:5em;
-        border:none;
-        color:#fff;
-        background-color: #CC0000;
-        font-family: "Montserrat";
-        font-size: 16px;
-        padding:10px 25px;
-        border-radius: 3em;
-    }
-    .itembot {  
-        margin-top: 20%;  
+        padding: 3em 4em;
         display:grid;
         grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
         align-items: center;
-    }
-    .fujiTemple {
-        text-align: left;
-        opacity:0.8;
-        color:white;
-        letter-spacing: -2px;
-        font-size: 45px;
-        font-family: "Montserrat";
-    }
-    .snsIcon{
-        display:flex;
-        justify-content: flex-end;
-    }
-    .socialSVG {
-        margin: 0 12px;
-        opacity:0.8;
-    }
+        li {
+            display:inline-block;
+            margin: 0 .6em;
+        }
+        }
+        nav {
+            color:white;
+            font-size:16px;
+            font-family: 'Montserrat';
+            text-align: end;
+        }
+        .titletag {
+            padding: 0em 4em;
+            text-align: center;
+            margin: 30vh auto;        
+            position: relative;
+            .herotitle {
     
-    .placeContainer {
-        padding: 3em 4em;
-        background-color: #20292F;
-    }
-    .stackPic{
-        margin-top:2em;
-        text-align: center;
-    }
-    .placeImage {
-        position:relative;
-        background-color: #000000;
-        display:inline-block;
-        height: 650px;
-        width: 160px; 
-        img {
+                text-align: center;
+                text-shadow: 10px 0px 30px #000000;
+                color:white;   
+                font-family:"Gilroy ☞";
+                font-size:70px;
+            }
+        }
+        .ctatitle{
+            margin-bottom:5em;
+            border:none;
+            color:#fff;
+            background-color: #CC0000;
+            font-family: "Montserrat";
+            font-size: 16px;
+            padding:10px 25px;
+            border-radius: 3em;
+        }
+        .itembot {  
+            margin-top: 250px;  
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+        }
+        .fujiTemple {
+            text-align: left;
+            opacity:0.8;
+            color:white;
+            letter-spacing: -2px;
+            font-size: 45px;
+            font-family: "Montserrat";
+        }
+        .snsIcon{
+            display:flex;
+            justify-content: flex-end;
+        }
+        .socialSVG {
+            margin: 0 12px;
             opacity:0.8;
         }
-    }
-    .textImg {
-        position:absolute;
-        margin:auto;
-        top:50%;
-        right:0;
-        left:0;
-        bottom:0;
-        color:white;
-        font-size: 16px;
-        font-family: 'Montserrat';
-        display: block;
-
-    }
-    .placeTitle {
-        font-family: "Montserrat";
+        .placeContainer {
+            padding: 3em 4em;
+            background-color: #20292F;
+        }
+        .stackPic{
+            margin-top:2em;
+            text-align: center;
+        }
+        .placeImage {
+            position:relative;
+            background-color: #000000;
+            display:inline-block;
+            height: 650px;
+            width: 160px; 
+            img {
+                opacity:0.8;
+            }
+        }
+        .textImg {
+            position:absolute;
+            margin:auto;
+            top:50%;
+            right:0;
+            left:0;
+            bottom:0;
             color:white;
-        h1 {
-            font-size: 45px;
-        }
-        p {
             font-size: 16px;
+            font-family: 'Montserrat';
+            display: block;
+    
         }
-    }
-    .left-title {
-        font-family: "Montserrat";
-        color:white;
-        h1{
+        .placeTitle {
+            font-family: "Montserrat";
+                color:white;
+            h1 {
+                font-size: 45px;
+            }
+            p {
+                margin-top: 10px;
+                font-size: 16px;
+            }
+        }
+        .left-title {
+            font-family: "Montserrat";
+            color:white;
+            h1{
+                font-size: 45px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+        .botcontent {
+            padding:2em 5em;        
+            grid-template-columns: 1fr 1fr;
+        }
+        #emailForm {
+            color:white;
+            padding:1em;
+            h1 {
             font-size: 45px;
+            font-family: "Montserrat";
+            }
         }
-        p{
+        .submitbtn {
             font-size: 16px;
+            font-family: 'Montserrat';
+            border: none;
+            border-radius: 2em;
+            margin-top:15px;
+            padding:.3em 1em;
+            background-color: white;
         }
-    }
-    .botcontent {
-        padding:2em 5em;        
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .right-title{
-        font-family: "Montserrat";
-        color:white;
-        h1{
-            font-size: 45px;
+
+        .footer {
+            position: relative;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: 10%;
+            padding: 3em 4em;
+            background-color: #20343E;
         }
-        p{
-            font-size: 16px;
+        .snsfooter {
+            display: flex;
+            place-items: center;
+         p {
+             font-size: 10px;
+             font-family: "Montserrat";
+             color:white;
+             padding: 0 1em;
+         }
+         }
+         .right-footer {
+             display: grid;
+             place-items: center;
+         }
+         .footerdeets {
+             position: absolute;
+    top:40%;
+    left:30%;
         }
-    }
-    .left-side {
-        padding:1em;
-    }
-    .left-image{
-        margin-top: 2em;
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .leftimg {
-        background-color: white;
-        height:200px;
-        max-width:auto;
-        background-size: cover;
-    }
-    .submitbtn {
-        border-radius: 2em;
-        margin-top:15px;
-        padding:.5em 1em;
-    }
+        #emailForm {
+            margin-top: 5em;
+            p{
+                margin-top: 1em;
+            }
+        }
+}
+//large screens desktop
+@media screen and (min-width:1200px)
+{
 
 }
 
+
+//for the pictures
 .hokkaido{
     position:relative;
     &::before {
@@ -288,19 +434,66 @@ html, body {
         opacity:0.7;
     }
 }
-.sushi {
-    background-image: url("sushi.jpg");
-    background-size: cover;
+
+// end of pictures
+
+.left-footer {
+    position: relative;
+    font-size:10px;
+    color:white;
+    font-family: "Montserrat";
 }
-.ramen {
-    background-image: url("ramen.jpg");
-    background-size: cover;
+#credits {
+    color: #707070;
 }
-.yaki {
-    background-image: url("yaki.jpg");
-    background-size: cover;
+
+.right-title{
+
+    font-family: "Montserrat";
+    color:white;
+    h1{
+        font-size: 45px;
+    }
+    p{
+        font-size: 16px;
+        margin: 1em 0;
+    }
 }
-.sashimi {
-    background-image: url("sashimi.jpg");
-    background-size: cover;
+.right-side {
+    padding: 1em;
+}
+.left-side {
+    padding:1em;
+    text-align: center;
+    h1 {
+        font-size:45px;
+        color: white;
+        font-family: "Montserrat";
+    }
+    p {
+        font-size:16px;
+        color:white;
+        font-family: "Gilroy";
+    }
+}
+.left-image{
+    margin-top: 2em;
+    display:grid;
+    grid-template-columns: auto auto;
+
+}
+.leftimg {
+    img {
+width:100%;
+        height: auto;
+    }
+
+}
+.rightimg {
+
+    img {
+        width: 100%;
+        height:auto;
+    }
+    margin-bottom: 3em;
 }
