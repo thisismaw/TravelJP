@@ -42,6 +42,10 @@ p {
     font-family: 'Montserrat';
     text-align: end;
   }
+  .navbar {
+    margin-top: 1em;
+    text-align: center;
+  }
   .titletag {
     padding: 1em;
     text-align: center;
@@ -130,6 +134,72 @@ p {
     font-size: 16px;
     font-family: 'Montserrat';
     display: block;
+  }
+  .left-title {
+    font-family: "Montserrat";
+    color: white;
+  }
+  .left-title h1 {
+    font-size: 45px;
+  }
+  .left-title p {
+    font-size: 16px;
+  }
+  .botcontent {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  #emailForm {
+    color: white;
+    padding: 1em;
+  }
+  #emailForm h1 {
+    font-size: 45px;
+    font-family: "Montserrat";
+  }
+  .submitbtn {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    border: none;
+    border-radius: 2em;
+    margin-top: 15px;
+    padding: .3em 1em;
+    background-color: white;
+  }
+  .footer {
+    position: relative;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    height: 10%;
+    padding: 1em;
+    background-color: #20343E;
+  }
+  .snsfooter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    place-items: center;
+  }
+  .snsfooter p {
+    font-size: 10px;
+    font-family: "Montserrat";
+    color: white;
+    padding: 0 1em;
+  }
+  .right-footer {
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+  }
+  .footerdeets {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+  }
+  #credits {
+    color: #707070;
   }
 }
 
@@ -292,10 +362,6 @@ p {
   }
   .footer {
     position: relative;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
     height: 10%;
     padding: 3em 4em;
     background-color: #20343E;
@@ -471,10 +537,6 @@ p {
   font-size: 10px;
   color: white;
   font-family: "Montserrat";
-}
-
-#credits {
-  color: #707070;
 }
 
 .right-title {

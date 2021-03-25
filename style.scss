@@ -33,6 +33,10 @@ p{
             font-family: 'Montserrat';
             text-align: end;
         }
+        .navbar {
+            margin-top:1em;
+            text-align: center;
+        }
         .titletag {
             padding: 1em;
             text-align: center;
@@ -123,6 +127,71 @@ p{
             display: block;
     
         }
+        .left-title {
+            font-family: "Montserrat";
+            color:white;
+            h1{
+                font-size: 45px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+        .botcontent {
+      
+            grid-template-columns: 1fr 1fr;
+        }
+        #emailForm {
+            color:white;
+            padding:1em;
+            h1 {
+            font-size: 45px;
+            font-family: "Montserrat";
+            }
+        }
+        .submitbtn {
+            font-size: 16px;
+            font-family: 'Montserrat';
+            border: none;
+            border-radius: 2em;
+            margin-top:15px;
+            padding:.3em 1em;
+            background-color: white;
+        }
+
+        .footer {
+            position: relative;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: 10%;
+            padding:1em;
+            background-color: #20343E;
+        }
+        .snsfooter {
+            display: flex;
+            place-items: center;
+         p {
+             font-size: 10px;
+             font-family: "Montserrat";
+             color:white;
+             padding: 0 1em;
+         }
+         }
+         .right-footer {
+             display: grid;
+             place-items: center;
+         }
+         .footerdeets {
+             position: absolute;
+    top:40%;
+    left:30%;
+        }
+
+        #credits {
+            color: #707070;
+        }
+        
+
 }
 
 @media screen and (min-width:768px) {
@@ -273,8 +342,6 @@ p{
 
         .footer {
             position: relative;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
             height: 10%;
             padding: 3em 4em;
             background-color: #20343E;
@@ -442,9 +509,6 @@ p{
     font-size:10px;
     color:white;
     font-family: "Montserrat";
-}
-#credits {
-    color: #707070;
 }
 
 .right-title{
