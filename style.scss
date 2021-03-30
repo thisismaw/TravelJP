@@ -8,7 +8,195 @@ html, body {
 p{
     font-family:"Gilroy";
 }
-@media screen and (min-width:320px) {
+
+.left-footer {
+    position: relative;
+    font-size:10px;
+    color:white;
+    font-family: "Montserrat";
+}
+
+.right-title{
+
+    font-family: "Montserrat";
+    color:white;
+    h1{
+        font-size: 45px;
+    }
+    p{
+        font-size: 16px;
+        margin: 1em 0;
+    }
+}
+.right-side {
+    padding: 1em;
+}
+.left-side {
+    padding:1em;
+    text-align: center;
+    h1 {
+        font-size:45px;
+        color: white;
+        font-family: "Montserrat";
+    }
+    p {
+        font-size:16px;
+        color:white;
+        font-family: "Gilroy";
+    }
+}
+.left-image{
+    margin-top: 2em;
+    display:grid;
+    grid-template-columns: auto auto;
+
+}
+.leftimg {
+    img {
+width:100%;
+        height: auto;
+    }
+
+}
+.rightimg {
+
+    img {
+        width: 100%;
+        height:auto;
+    }
+}
+
+
+
+//for the pictures
+.hokkaido{
+    position:relative;
+    &::before {
+        content:'';
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-image: url("hokkaido.jpg");
+        background-position: center;
+        background-size: cover;
+        opacity:0.7;
+    }
+}
+.tohoku{
+    position:relative;
+    &::before {
+        content:'';
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-image: url("tohoku.jpg");
+        background-position: center;
+        background-size: cover;
+        opacity:0.7;
+    }
+}
+.chubu{
+    position:relative;
+    &::before {
+        content:'';
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-image: url("chubu.jpg");
+        background-position: 71% 29% ;
+        background-size: cover;
+        opacity:0.7;
+    }
+}
+.kanto{
+    position:relative;
+    &::before {
+        content:'';
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-image: url("tokyo.jpg");
+        background-position:center;
+        background-size: cover;
+        opacity:0.7;
+    }
+}
+.kansai{
+    position:relative;
+    &::before {
+        content:'';
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-image: url("Kansai.jpg");
+        background-position:center;
+        background-size: cover;
+        opacity:0.7;
+    }
+}
+.chogoku{
+    position:relative;
+    &::before {
+        content:'';
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-image: url("Chugoku.jpg");
+        background-position:55% 45%;
+        background-size: cover;
+        opacity:0.7;
+    }
+}
+
+.shikoku{
+    position:relative;
+    &::before {
+        content:'';
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-image: url("Shikoku.jpg");
+        background-position:47% 53%;
+        background-size: cover;
+        opacity:0.7;
+    }
+}
+.kyushu{
+    position:relative;
+    &::before {
+        content:'';
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-image: url("kyushu.jpg");
+        background-position:55% 45%;
+        background-size: cover;
+        opacity:0.7;
+    }
+}
+
+// end of pictures
+
+
+
+
+@media screen and (min-width:270px) {
     .backgroundJP {
         height:100%;
         background: url("japan.jpg");
@@ -161,11 +349,9 @@ p{
 
         .footer {
             position: relative;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            height: 10%;
             padding:1em;
             background-color: #20343E;
+            text-align: center;
         }
         .snsfooter {
             display: flex;
@@ -177,22 +363,56 @@ p{
              padding: 0 1em;
          }
          }
-         .right-footer {
-             display: grid;
-             place-items: center;
+         .left-footer {
+             display: inline-block;
+             p {
+                font-size: 10px;
+                font-family: "Montserrat";
+                color:white;
+                padding: 0 1em;
+            }
          }
-         .footerdeets {
-             position: absolute;
-    top:40%;
-    left:30%;
-        }
+         .right-footer {
+             display: inline-block;
+             place-items: center;
+             margin-top: 1em;
+         }
 
         #credits {
+            margin: 1em 0;
             color: #707070;
+            p {
+                font-size: 10px;
+                font-family: "Montserrat";
+                padding: 0 1em;
+            }
+            
         }
         
 
 }
+
+
+
+
+//MOBILE M
+
+
+
+@media screen and (min-width:375px) {
+.placeImage {
+    width:340px;
+}
+
+
+
+}
+
+
+
+// TABLET TABLET 
+
+
 
 @media screen and (min-width:768px) {
 
@@ -372,192 +592,4 @@ p{
             }
         }
 }
-//large screens desktop
-@media screen and (min-width:1200px)
-{
 
-}
-
-
-//for the pictures
-.hokkaido{
-    position:relative;
-    &::before {
-        content:'';
-        position: absolute;
-        top:0;
-        left:0;
-        right:0;
-        bottom:0;
-        background-image: url("hokkaido.jpg");
-        background-position: center;
-        background-size: cover;
-        opacity:0.7;
-    }
-}
-.tohoku{
-    position:relative;
-    &::before {
-        content:'';
-        position: absolute;
-        top:0;
-        left:0;
-        right:0;
-        bottom:0;
-        background-image: url("tohoku.jpg");
-        background-position: center;
-        background-size: cover;
-        opacity:0.7;
-    }
-}
-.chubu{
-    position:relative;
-    &::before {
-        content:'';
-        position: absolute;
-        top:0;
-        left:0;
-        right:0;
-        bottom:0;
-        background-image: url("chubu.jpg");
-        background-position: 71% 29% ;
-        background-size: cover;
-        opacity:0.7;
-    }
-}
-.kanto{
-    position:relative;
-    &::before {
-        content:'';
-        position: absolute;
-        top:0;
-        left:0;
-        right:0;
-        bottom:0;
-        background-image: url("tokyo.jpg");
-        background-position:center;
-        background-size: cover;
-        opacity:0.7;
-    }
-}
-.kansai{
-    position:relative;
-    &::before {
-        content:'';
-        position: absolute;
-        top:0;
-        left:0;
-        right:0;
-        bottom:0;
-        background-image: url("Kansai.jpg");
-        background-position:center;
-        background-size: cover;
-        opacity:0.7;
-    }
-}
-.chogoku{
-    position:relative;
-    &::before {
-        content:'';
-        position: absolute;
-        top:0;
-        left:0;
-        right:0;
-        bottom:0;
-        background-image: url("Chugoku.jpg");
-        background-position:55% 45%;
-        background-size: cover;
-        opacity:0.7;
-    }
-}
-
-.shikoku{
-    position:relative;
-    &::before {
-        content:'';
-        position: absolute;
-        top:0;
-        left:0;
-        right:0;
-        bottom:0;
-        background-image: url("Shikoku.jpg");
-        background-position:47% 53%;
-        background-size: cover;
-        opacity:0.7;
-    }
-}
-.kyushu{
-    position:relative;
-    &::before {
-        content:'';
-        position: absolute;
-        top:0;
-        left:0;
-        right:0;
-        bottom:0;
-        background-image: url("kyushu.jpg");
-        background-position:55% 45%;
-        background-size: cover;
-        opacity:0.7;
-    }
-}
-
-// end of pictures
-
-.left-footer {
-    position: relative;
-    font-size:10px;
-    color:white;
-    font-family: "Montserrat";
-}
-
-.right-title{
-
-    font-family: "Montserrat";
-    color:white;
-    h1{
-        font-size: 45px;
-    }
-    p{
-        font-size: 16px;
-        margin: 1em 0;
-    }
-}
-.right-side {
-    padding: 1em;
-}
-.left-side {
-    padding:1em;
-    text-align: center;
-    h1 {
-        font-size:45px;
-        color: white;
-        font-family: "Montserrat";
-    }
-    p {
-        font-size:16px;
-        color:white;
-        font-family: "Gilroy";
-    }
-}
-.left-image{
-    margin-top: 2em;
-    display:grid;
-    grid-template-columns: auto auto;
-
-}
-.leftimg {
-    img {
-width:100%;
-        height: auto;
-    }
-
-}
-.rightimg {
-
-    img {
-        width: 100%;
-        height:auto;
-    }
-    margin-bottom: 3em;
-}
