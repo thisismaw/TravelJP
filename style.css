@@ -267,7 +267,7 @@ p {
     border-radius: 3em;
   }
   .itembot {
-    margin-top: 6em;
+    margin-top: 10em;
   }
   .fujiTemple {
     text-align: center;
@@ -302,8 +302,8 @@ p {
     position: relative;
     background-color: #000000;
     display: inline-block;
-    height: 150px;
-    width: 250px;
+    height: 100px;
+    width: 270px;
   }
   .placeImage img {
     opacity: 0.8;
@@ -408,6 +408,12 @@ p {
 @media screen and (min-width: 375px) {
   .placeImage {
     width: 340px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .placeImage {
+    width: 380px;
   }
 }
 

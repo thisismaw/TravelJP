@@ -251,7 +251,7 @@ width:100%;
         }
 
         .itembot {  
-            margin-top:6em;
+            margin-top:10em;
         }
         .fujiTemple {
             text-align: center;
@@ -284,8 +284,8 @@ width:100%;
             position:relative;
             background-color: #000000;
             display:inline-block;
-            height: 150px;
-            width: 250px; 
+            height: 100px;
+            width: 270px; 
             img {
                 opacity:0.8;
             }
@@ -385,11 +385,8 @@ width:100%;
                 font-size: 10px;
                 font-family: "Montserrat";
                 padding: 0 1em;
-            }
-            
+            }   
         }
-        
-
 }
 
 
@@ -403,13 +400,19 @@ width:100%;
 .placeImage {
     width:340px;
 }
-
-
-
 }
 
+// 
 
+//MOBILE L
 
+@media screen and (min-width:425px) {
+    .placeImage {
+        width:380px;
+    }
+    }
+
+    // 
 // TABLET TABLET 
 
 
