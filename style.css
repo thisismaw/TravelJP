@@ -313,7 +313,7 @@ p {
     color: white;
   }
   .placeTitle h1 {
-    font-size: 45px;
+    font-size: 25px;
   }
   .placeTitle p {
     margin-top: 10px;
@@ -336,10 +336,13 @@ p {
     color: white;
   }
   .left-title h1 {
-    font-size: 45px;
+    font-size: 25px;
   }
   .left-title p {
     font-size: 16px;
+  }
+  .right-title h1 {
+    font-size: 25px;
   }
   .botcontent {
     -ms-grid-columns: 1fr 1fr;
@@ -350,14 +353,18 @@ p {
     padding: 1em;
   }
   #emailForm h1 {
-    font-size: 45px;
+    font-size: 25px;
     font-family: "Montserrat";
+    margin-bottom: .5em;
+  }
+  #emailForm p {
+    margin-top: 1em;
   }
   .submitbtn {
     font-size: 16px;
     font-family: 'Montserrat';
     border: none;
-    border-radius: 2em;
+    border-radius: 1em;
     margin-top: 15px;
     padding: .3em 1em;
     background-color: white;
