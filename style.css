@@ -209,6 +209,9 @@ p {
 }
 
 @media screen and (min-width: 270px) {
+  h1 {
+    font-size: 34px;
+  }
   .backgroundJP {
     height: 100%;
     background: url("japan.jpg");
@@ -312,9 +315,6 @@ p {
     font-family: "Montserrat";
     color: white;
   }
-  .placeTitle h1 {
-    font-size: 25px;
-  }
   .placeTitle p {
     margin-top: 10px;
     font-size: 16px;
@@ -335,14 +335,8 @@ p {
     font-family: "Montserrat";
     color: white;
   }
-  .left-title h1 {
-    font-size: 25px;
-  }
   .left-title p {
     font-size: 16px;
-  }
-  .right-title h1 {
-    font-size: 25px;
   }
   .botcontent {
     -ms-grid-columns: 1fr 1fr;
@@ -353,7 +347,6 @@ p {
     padding: 1em;
   }
   #emailForm h1 {
-    font-size: 25px;
     font-family: "Montserrat";
     margin-bottom: .5em;
   }
