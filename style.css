@@ -256,6 +256,9 @@ p {
     font-family: "Gilroy ☞";
     font-size: 70px;
   }
+  .hero {
+    margin-bottom: 15%;
+  }
   .ctatitle {
     margin-top: 1em;
     margin-bottom: 3em;
@@ -269,7 +272,6 @@ p {
   }
   .itembot {
     padding: 1em;
-    margin-top: 10vh;
   }
   .fujiTemple {
     text-align: center;
@@ -605,11 +607,21 @@ p {
     top: 40%;
     left: 30%;
   }
-  #emailForm {
-    margin-top: 5em;
-  }
   #emailForm p {
     margin-top: 1em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    margin-bottom: 8%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .left-image {
+    width: 736px;
+    margin: 0 auto;
   }
 }
 /*# sourceMappingURL=style.css.map */
