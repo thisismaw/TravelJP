@@ -58,13 +58,6 @@ width:100%;
     }
 
 }
-.rightimg {
-
-    img {
-        width: 100%;
-        height:auto;
-    }
-}
 
 
 
@@ -210,6 +203,9 @@ width:100%;
         grid-template-columns: 1fr 1fr;
         justify-content: space-between;
         align-items: center;
+        ul {
+            text-align: center;
+        }
         li {
             text-align: center;
             display:inline-block;
@@ -229,7 +225,7 @@ width:100%;
         .titletag {
             padding: 1em;
             text-align: center;
-            margin: 30% auto;        
+            margin-top: 50%;        
             position: relative;
             .herotitle {
                 text-align: center;
@@ -250,10 +246,11 @@ width:100%;
             padding:10px 25px;
             border-radius: 3em;
         }
-
-        .itembot {  
-            margin-top:10em;
+        .itembot {
+            padding:1em;
+            margin-top: 10vh;
         }
+
         .fujiTemple {
             text-align: center;
             opacity:0.8;
@@ -320,7 +317,6 @@ width:100%;
                 font-size: 16px;
             }
         }
-
     
         .botcontent {
       
@@ -432,6 +428,9 @@ width:100%;
         grid-template-columns: 1fr 1fr;
         justify-content: space-between;
         align-items: center;
+        ul {
+            text-align: right;
+        }
         li {
             display:inline-block;
             margin: 0 .6em;
@@ -446,7 +445,7 @@ width:100%;
         .titletag {
             padding: 0em 4em;
             text-align: center;
-            margin: 30vh auto;        
+            margin-top: 30vh;        
             position: relative;
             .herotitle {
     
@@ -468,7 +467,7 @@ width:100%;
             border-radius: 3em;
         }
         .itembot {  
-            margin-top: 250px;  
+            padding:3em 4em; 
             display:grid;
             grid-template-columns: 1fr 1fr;
             align-items: center;
@@ -490,6 +489,7 @@ width:100%;
             opacity:0.8;
         }
         .placeContainer {
+            position:relative;
             padding: 3em 4em;
             background-color: #20292F;
         }
